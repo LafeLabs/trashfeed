@@ -124,8 +124,13 @@ boxindex = 0;
 
 globalurl = window.location.href;
 
+pagename = window.location.href.split("://")[1];
+
+pagename = pagename.replace(/index.html/g, ""); 
+
 function redraw(){
     document.getElementById("feed").innerHTML = "<h1>" + feedname + "</h1>";
+    document.getElementById("feed").innerHTML += "<h1>" + pagename + "</h1>";
     document.getElementById("feed").innerHTML += "\n<div id  = \"qrcode\"></div>";
 
     codesquaresize = 80;
