@@ -9,63 +9,22 @@
 
 [FOLLOW TRASH ROBOT ON TIKTOK!](https://www.tiktok.com/@trash_robot)
 
-[EMAIL TRASH ROBOT!](mailto:operator@sloanslake.art)
-
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/HYPERSIGN.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/CSS.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/ARRAY.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/SIGNSTACK.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/META.png)
-
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/STARBUCKS.png)
-
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/MEMEFEED.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/INTERNETOFTRASH.png)
-
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/TRASHPHONEFEED.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/SOUTHPLATTE.png)
-
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/SBUX.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/RECURSION.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/STONE.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/NETWORK.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/CYBERTRASH.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/ANTICLOUD.png)
-
-![](https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/trashmagic/FREERIDE.png)
 
 
 REPLICATOR URL:
 
 ```
-https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/php/replicator.txt
+https://raw.githubusercontent.com/LafeLabs/trashfeed/main/php/replicator.txt
 ```
 
-# [CARDBOARD HYPERSIGN!](https://github.com/lafeLabs/HYPERSIGN)
+# [TRASH MAGIC FEED!](https://github.com/lafeLabs/trashfeed)
 
 # [WWW.SOUTHPLATTE.NET](https://www.southplatte.net)
 
 # [LOCALHOST](http://localhost)
 
-AS ABOVE, SO BELOW: THE CARDBOARD POINTS TO THE HTML, THE HTML POINTS TO THE CARDBOARD.
 
-THE CARDBOARD SIGN IS HYPERTEXT.  IT IS AN EXTENSION OF HTML FROM THE BROWSER OUT TO THE STREETS.  HYPER TRASH MARKUP LANGUAGE IS AN EXTENTION OF HYPERTEXT MARKUP LANGUAGE. THE VOICE OF THE STREETS.
+
 
 TO BUILD A NEW TRASH MAGIC SERVER FIND A COMPUTER FROM A WASTE STREAM, COPY OFF ANY INFORMATION ANYONE WANTS TO KEEP, WIPE THE HARD DRIVE, AND INSTALL [UBUNTU](https://ubuntu.com/desktop) OR SOME OTHER FORM OF LINUX.
 
@@ -78,7 +37,7 @@ sudo apt install php libapache2-mod-php -y
 cd /var/www/html
 sudo rm index.html
 sudo apt install curl
-sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/HYPERSIGN/main/php/replicator.txt
+sudo curl -o replicator.php https://raw.githubusercontent.com/LafeLabs/trashfeed/main/php/replicator.txt
 cd ..
 sudo chmod -R 0777 *
 cd html
@@ -107,15 +66,6 @@ MORE FOLDERS CAN BE ADDED WITH THE SAME METHOD AS FOLLOWS, EG:
 ```
 ln -s /var/www/html/FREEMIXTAPE/mixtape/ /home/username/Desktop
 ```
-
-# ELEMENTS OF CYBERMAGIC
-
- - [EARTH 🜃 GEOMETRON](https://raw.githubusercontent.com/LafeLabs/bookofgeometron/main/main-bigpaper.pdf)
- - [AIR 🜁 CSS](https://github.com/LafeLabs/HYPERSIGN/blob/main/trashmagic.css)
- - [WATER 🜄 HTML](https://github.com/LafeLabs/HYPERSIGN/blob/main/index.html)
- - [FIRE 🜂 JS](https://github.com/LafeLabs/HYPERSIGN/blob/main/trashmagic.js)
- - [AETHER ☉  PHP](https://github.com/LafeLabs/HYPERSIGN/blob/main/replicator.php)
- 
 
 ### Replicate the Github using localhost
 
