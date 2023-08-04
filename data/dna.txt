@@ -13,6 +13,7 @@
         "qrcode.html",
         "readme.html",
         "readmeeditor.html",
+        "trashfeed.txt",
         "trashmagic.css",
         "trashmagic.js",
         "trashrobot.html",
