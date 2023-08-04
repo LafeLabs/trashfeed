@@ -2,6 +2,7 @@
     "html": [
         "README.md",
         "draw.html",
+        "einstein.html",
         "fork.html",
         "geometron.js",
         "hypercube.html",

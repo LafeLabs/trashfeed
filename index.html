@@ -25,6 +25,7 @@
 
 
 <!--un-comment to add math: -->
+<!-- (to add amth, also scroll down to the bottom of the redraw() function and un-comment the update command there) -->
 <!--
 
 
@@ -64,8 +65,9 @@ feedname = "TRASH MAGIC FEED";
 //add a default feed here for any given feed instance:
 
 resetfeed = [
-    "WE WILL BUILD EVERYTHING OUT OF TRASH AND THINGS WE CAN GROW AND GIVE IT AWAY! USE THE FEED TO POST WHAT YOU'VE GOT OR WHAT YOU NEED!",
-    "TO ENTER EDIT MODE HIT THE EDIT BUTTON! IN EDIT MODE, TYPE A POST IN THE PINK BOX, DELETE WITH RED X, RESET WITH !💥! AND RELOAD FEED WITH  🔄"
+    "We will build everything from trash and what we can grow, locally, right now, and give it all away for free!",
+    "TO ENTER EDIT MODE HIT THE EDIT BUTTON! IN EDIT MODE, TYPE A POST IN THE PINK BOX, DELETE WITH RED X, RESET WITH !💥! AND RELOAD FEED WITH  🔄",
+    "<a href = \"trashrobot.html\">TRASHROBOT HOME PAGE</a>"
 ];
 
 
@@ -185,6 +187,8 @@ function redraw(){
         boxes.push(newbox);
     }
     document.getElementById("textinput").select();
+    //uncomment to add math:
+    //MathJax.Hub.Typeset();//tell Mathjax to update the math
 }
 
 oldfeed =[];
