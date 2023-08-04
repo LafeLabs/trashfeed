@@ -1,5 +1,0 @@
-[
-    "<a href = \"index.html\">HOME</a>",
-    "<a href = \"hypercube.html\">HYPERCUBE</a>",
-    "TO ENTER EDIT MODE HIT THE EDIT BUTTON! IN EDIT MODE, TYPE A POST IN THE PINK BOX, DELETE WITH RED X, RESET WITH !💥! AND RELOAD FEED WITH  🔄"
-]
