@@ -3,5 +3,6 @@
     "TO ENTER EDIT MODE HIT THE EDIT BUTTON! IN EDIT MODE, TYPE A POST IN THE PINK BOX, DELETE WITH RED X, RESET WITH !💥! AND RELOAD FEED WITH  🔄",
     "<a href = \"trashrobot.html\">TRASHROBOT HOME PAGE</a>",
     "To create a new subfeed, click on the <a href = \"subfeeds.html\">subfeed link</a> and enter the name of the new subfeed.  Existing subfeeds are listed and can be found here as well.",
-    "To make more trash magic servers use the <a href =\"readme.html\">README scroll</a> as reference."
+    "To make more trash magic servers use the <a href =\"readme.html\">README scroll</a> as reference.",
+    "<a href = \"draw.html\">CLICK TO DRAW A PICTURE!</a>"
 ]
