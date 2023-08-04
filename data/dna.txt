@@ -14,6 +14,7 @@
         "qrcode.html",
         "readme.html",
         "readmeeditor.html",
+        "subfeeds.html",
         "trashfeed.txt",
         "trashmagic.css",
         "trashmagic.js",

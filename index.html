@@ -23,6 +23,7 @@
     <!--Stop Google:-->
     <META NAME="robots" CONTENT="noindex,nofollow">
 
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
 <!--un-comment to add math: -->
 <!-- (to add amth, also scroll down to the bottom of the redraw() function and un-comment the update command there) -->
@@ -67,7 +68,9 @@ feedname = "TRASH MAGIC FEED";
 resetfeed = [
     "We will build everything from trash and what we can grow, locally, right now, and give it all away for free!",
     "TO ENTER EDIT MODE HIT THE EDIT BUTTON! IN EDIT MODE, TYPE A POST IN THE PINK BOX, DELETE WITH RED X, RESET WITH !💥! AND RELOAD FEED WITH  🔄",
-    "<a href = \"trashrobot.html\">TRASHROBOT HOME PAGE</a>"
+    "<a href = \"trashrobot.html\">TRASHROBOT HOME PAGE</a>",
+    "To create a new subfeed, click on the <a href = \"subfeeds.html\">subfeed link</a> and enter the name of the new subfeed.  Existing subfeeds are listed and can be found here as well.",
+    "To make more trash magic servers use the <a href =\"readme.html\">README scroll</a> as reference."
 ];
 
 
@@ -118,8 +121,27 @@ function savejson(){
 
 boxindex = 0;
 
+globalurl = window.location.href;
+
 function redraw(){
     document.getElementById("feed").innerHTML = "<h1>" + feedname + "</h1>";
+    document.getElementById("feed").innerHTML += "\n<div id  = \"qrcode\"></div>";
+
+    codesquaresize = 80;
+    marginsize = 40;
+    fontsize = 12;
+    //globalurl = "http://www.trashrobot.org/qrcode.html";
+    globalurl = window.location.href;
+    qrcode = new QRCode(document.getElementById("qrcode"), {
+    	text: globalurl,
+    	width: codesquaresize,
+    	height: codesquaresize,
+    	colorDark : "#000000",
+    	colorLight : "#ffffff",
+    	correctLevel : QRCode.CorrectLevel.H
+    });
+
+    
     boxes= [];
     for(var index = 0;index < feed.length;index++){
         var newbox = document.createElement("DIV");
@@ -418,6 +440,11 @@ H1{
 }
 img{
     max-width:80%;
+}
+#qrcode{
+    display:block;
+    margin:auto;
+    text-align:center;
 }
 </style>
 </body>
