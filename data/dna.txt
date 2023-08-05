@@ -1,6 +1,7 @@
 {
     "html": [
         "README.md",
+        "cardboard.html",
         "draw.html",
         "einstein.html",
         "fork.html",
@@ -10,8 +11,6 @@
         "images.html",
         "index.html",
         "mutate.html",
-        "myspace.html",
-        "path.html",
         "qrcode-page.html",
         "qrcode.html",
         "readme.html",
