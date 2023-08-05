@@ -9,6 +9,7 @@
         "images.html",
         "index.html",
         "mutate.html",
+        "myspace.html",
         "path.html",
         "qrcode-page.html",
         "qrcode.html",
