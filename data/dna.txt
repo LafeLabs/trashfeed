@@ -5,6 +5,7 @@
         "einstein.html",
         "fork.html",
         "geometron.js",
+        "greenscreen.html",
         "hypercube.html",
         "images.html",
         "index.html",
@@ -18,8 +19,10 @@
         "subfeeds.html",
         "trashfeed.txt",
         "trashmagic.css",
+        "trashmagic.html",
         "trashmagic.js",
         "trashrobot.html",
+        "typewriter.html",
         "webdestroyer.html",
         "webeditor.html"
     ],
