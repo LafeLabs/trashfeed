@@ -18,7 +18,7 @@
 <div id = "mushroom" style = "font-size:10em;cursor:pointer;">🍄CLICK ME🍄</div>
 <a id= "toplink" href = "index.html">HOME</a>
 
-<table style = "display:none">
+<table>
     <tr>
         <td>URL:</td>
         <td><input id = "urlinput"/></td>
@@ -49,7 +49,7 @@ capsurl = capsurl.replace(/\//g,"/<BR/>");
 
 //console.log(capsurl);
 //urltext = "TRASH MAGIC<BR>HYPERSIGN<BR>SOUTHPLATTE.NET";
-urltext = "TRASH MAGIC<BR>HYPERSIGN<BR>"  + capsurl;
+urltext = "TRASH MAGIC<BR>"  + capsurl;
 
 document.getElementById("urlinput").value = "";
 document.getElementById("textinput").value = "";
@@ -100,8 +100,8 @@ document.getElementById("reloadbutton").onclick  =function(){
     
 
 function loadtable(){
-//    globalurl = document.getElementById("urlinput").value;
-//    urltext = document.getElementById("textinput").value;
+    globalurl = document.getElementById("urlinput").value;
+    urltext = document.getElementById("textinput").value;
     qrcode.makeCode(globalurl);
     pngcode = document.getElementById("qrcode").getElementsByTagName("IMG")[0].src;
     document.getElementById("linklink").href = globalurl;
