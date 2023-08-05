@@ -7,7 +7,7 @@
 </head>
 <body>   
 
-<a href = "hypercube.html" id = "homelink">GEOMETRON HYPERCUBE</a>
+<a href = "index.html" id = "homelink">HOME</a>
 
 
 <form id = "uploadform" style = "top:10px;position:absolute;right:10px;z-index:2" action="uploadimage.php" method="post" enctype="multipart/form-data">
@@ -34,6 +34,10 @@
     <tr>
         <td>RAW png code:</td>
         <td><input id = "rawinput"/></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td id = "saveshrunken" class = "button">SAVE shrunken</td>
     </tr>
 </table>
 
@@ -123,7 +127,15 @@ document.getElementById("widthinput").onchange = function(){
     document.getElementById("mainimage").style.width = width.toString() + "px";
 }
 
-
+document.getElementById("saveshrunken").onclick  = function(){
+    var timestamp = Math.round((new Date().getTime())/1000).toString();
+    var httpc = new XMLHttpRequest();
+    var url = "pngsave.php";        
+    httpc.open("POST", url, true);
+    httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    var pngcode = document.getElementById("rawinput").value;
+    httpc.send("data="+encodeURIComponent(pngcode.substring(22))+"&filename=trashmagic/shrunken" + timestamp +  ".png");//send text to filesaver.php
+}
 
 </script>
 <style>
@@ -133,8 +145,8 @@ body{
 }
 #homelink{
     position:absolute;
-    left:0px;
-    top:50%;
+    left:10px;
+    bottom:10px;
     z-index:2;
     color:blue;
     font-size:1.5em;
@@ -184,6 +196,11 @@ body{
     display:block;
     margin:auto;
     margin-top:1em;
+}
+#saveshrunken{
+    border:solid;
+    border-radius:5px;
+    text-align:center;
 }
 .button{
     cursor:pointer;
